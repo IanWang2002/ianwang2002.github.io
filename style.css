@@ -8,7 +8,7 @@ body {
     background-color: #1a1a1a;
     color: #fff;
 }
-body.home {
+body.index {
     background: url('560890.jpeg') no-repeat center center fixed;
     background-size: cover;
     
