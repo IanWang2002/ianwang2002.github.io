@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('click', (event) => {
         createLaser(event.clientX, event.clientY);
     });
-
+// Remove the firework effect
+/*
     function createLaser(x, y) {
         const particleCount = 50;
         const angleIncrement = (Math.PI * 2) / particleCount;
@@ -23,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             particles.push(new Particle(x, y, i * angleIncrement));
         }
     }
-
+*/
     class Particle {
         constructor(x, y, angle) {
             this.x = x;
