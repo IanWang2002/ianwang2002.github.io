@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     // Laser effect logic
     const canvas = document.getElementById('effectCanvas');
@@ -151,3 +152,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     render();
 });
+
+
+document.querySelector('.menu-toggle').addEventListener('click', () => {
+    document.querySelector('nav ul').classList.toggle('show');
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector("nav ul");
+  
+    toggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  });
+  
+
