@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - My Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Ian Wang</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Cormorant+Garamond&family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>About Ian!</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Project.html" class="font-roboto">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <!-- <li><a href="cats.html" class="font-roboto">Cats</a></li> -->
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>Hello! My name is Ian Wang</p>
-            <p>I am a UCLA graduate and a Master’s student at Columbia University.</p>
-            <div style="text-align: center;">
-                <!-- <img src="ucla.jpg" alt="UCLA sign" width="300" style="display: inline-block; margin-right: 20px;"> -->
-                <img src="alma.jpg" alt="Columbia alma mater" width="300" style="display: inline-block;">
-              </div>
-            <br>
-            <br>
-            My interests lie in Quantitative Modeling, Machine Learning, and Decision-Making,<br> with a strong focus on applications in Finance, Life Science, Technology, and Consulting.
-            <br>
-            <br>
-            <img src="Brain.gif" alt="Brain" style="width:256px;height:128px;">
-            <br>
-            <p> This passion inspired me to pursue a dual degree in Cognitive Science and Applied Mathematics at UCLA! </p>
-            <img src="math.jpg" alt="Math" style="width:256px;height:128px;">
-            <br>
-            <p> To deepen my understanding of real-world applications, I’m pursuing an M.A. in Statistics at Columbia University. </p>
-            <img src="stats.jpg" alt="Stat" style="width:256px;height:256px;">
-            <br>
 
-            <!--
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <p>Here is my diploma:</p>
-                <iframe src="Diploma.pdf" width="65%" height="430px" style="border: none;"></iframe>
-              </div>              
-            -->
-        </section>
-        
+<body class="about">
 
-    </main>
-    
-    <canvas id="effectCanvas"></canvas>
-    <script src="script.js"></script>
+  <header>
+    <div class="menu-toggle">&#9776;</div>
+    <h1>About Ian</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-section">
+      <h2 class="font-caveat">About Me</h2>
+      <p>Hello! My name is <strong>Ian Wang</strong>.</p>
+      <p>I’m a UCLA graduate and an incoming M.A. Statistics student at Columbia University.</p>
+
+      <div class="image-center">
+        <img src="alma.jpg" alt="Columbia Alma Mater" class="about-gif" style="width:300px;height:250px;">
+      </div>
+
+      <p>My interests lie in <strong>Probability Theory, Machine Learning</strong>, and <strong>Dynamical Systems</strong>.</p>
+
+      <div class="image-center">
+        <img src="system.gif" alt="system" class="about-gif" style="width:300px;height:250px;">
+      </div>
+
+      <p>This path led me to major in <strong>Applied Mathematics</strong> and <strong>Computational Cognitive Science</strong> at UCLA.</p>
+      <div class="image-center">
+        <img src="math.gif" alt="Math" class="about-gif" style="width:300px;height:250px;">
+      </div>
+      <p>To explore uncertainty and randomness, I’m pursuing graduate studies in statistics at Columbia University</p>
+
+      <div class="image-center">
+        <img src="dice.gif" alt="Stat" class="about-gif" style="width:300px;height:250px;">
+      </div>
+    </section>
+  </main>
+
+  <canvas id="effectCanvas"></canvas>
+  <script src="script.js"></script>
 </body>
 </html>
