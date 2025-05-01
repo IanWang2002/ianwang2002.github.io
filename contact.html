@@ -9,38 +9,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Cormorant+Garamond&family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="contact">
+    
     <header>
-        <h1 class="font-caveat">Contact Me!</h1>
+        <h1 class="font-caveat">Contact Information</h1>
         <nav>
             <ul>
-                <li><a href="index.html" class="font-roboto">Home</a></li>
-                <li><a href="about.html" class="font-roboto">About</a></li>
-                <li><a href="Project.html" class="font-roboto">Projects</a></li>
-                <li><a href="contact.html" class="font-roboto">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="cats.html" class="font-roboto">Cats</a></li> -->
             </ul>
         </nav>
     </header>
     <main>
-        <section id="contact">
-            <h2 class="font-caveat">Let's Connect</h2>
-            <p class="font-roboto">You can contact me directly through LinkedIn or by Email:</p>
-            <br>
-            <!-- LinkedIn Button with Icon -->
-            <a href="https://www.linkedin.com/in/ching-yi-wang-302038243" target="_blank">
-                <button><i class="fab fa-linkedin"></i> Connect on LinkedIn</button>
+        <section id="contact" class="about-section">
+          <h2 class="font-caveat" style="font-size: 2.5rem; color: #8ca4a6;">Let’s Connect</h2>
+      
+          <p class="font-roboto" style="font-size: 1.15rem; color: #e0e0e0; max-width: 800px; margin: 1rem auto;">
+            Always open to engaging in thoughtful professional exchange. <br>
+            Whether it's research, collaboration, or new opportunities, feel free to connect.
+          </p>
+      
+          <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2.5rem;">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/ching-yi-wang-302038243" target="_blank" class="hero-btn">
+              <i class="fab fa-linkedin"></i> LinkedIn
             </a>
-            <!-- Gmail Button with Icon -->
-            <a href="mailto:iw050402@gmail.com?subject=Mail from Our Website">
-                <button><i class="fas fa-envelope"></i> Email Me</button>
+      
+            <!-- Email -->
+            <a href="mailto:iw050402@gmail.com?subject=Hello Ian" class="hero-btn" style="background-color: #d14836;">
+              <i class="fas fa-envelope"></i> Email Me
             </a>
-
-
-
-            
+      
+            <!-- GitHub -->
+            <a href="https://github.com/ianwang2002" target="_blank" class="hero-btn" style="background-color: #333;">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+      
+          <blockquote class="quote">
+            “Great discoveries are made at the intersection of disciplines.”
+            <footer>— John Tukey</footer>
+          </blockquote>
         </section>
-    </main>
+      </main>
+      
     <canvas id="effectCanvas"></canvas>
     <script src="script.js"></script>
 </body>
