@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ching-Yi (Ian) Wang </title>
+    <title>Ching-Yi (Ian) Wang</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="iw.png" type="image/png" sizes="64x64">
 </head>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Cormorant+Garamond&family=EB+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Cormorant+Garamond&family=EB+Garamond&display=swap" rel="stylesheet">
 <body class="index">
+    <div id="tsparticles">
+
     <header>
+        <div class="menu-toggle">&#9776;</div>
+
         <h1>Welcome to Ian's Website</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="Project.html" class="font-roboto">Projects</a></li>
+                <li><a href="Project.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <!-- <li><a href="cats.html" class="font-roboto">Cats</a></li> -->
             </ul>
         </nav>
     </header>
     <main>
-        <section id="index">
-            <h2>Home</h2>
-            <p>Welcome to Ian's Website!</p>
-        </section>
+        <section class="hero">
+            <h1>Ching-Yi (Ian) Wang</h1>
+            <h2>Computing | Machine Learning | Quantitative</h2>
+            <p>
+                I explore dynamic phenomena through Statistical and Mathematical Perspectives
+            </p>
+            <a href="about.html" class="hero-btn">Learn More</a>
+          </section>
     </main>
     <canvas id="effectCanvas"></canvas>
     <script src="script.js"></script>
+</div>
 </body>
 
 </html>
