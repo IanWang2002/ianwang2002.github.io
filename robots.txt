@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ianwang2002.github.io/sitemap.xml
